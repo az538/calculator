@@ -7,6 +7,27 @@
     <title>Document</title>
   </head>
   <style>
+    .i2 {
+      background-color: orange;
+    }
+    .div {
+      padding-left: 54px;
+    }
+    .zero {
+      background-color: rgb(163, 170, 182);
+      padding-top: 15px;
+    }
+    h2 {
+      color: white;
+    }
+    .saddness {
+      background-color: rgb(163, 170, 182);
+      padding-top: 15px;
+    }
+    .i {
+      padding-top: 15px;
+      background-color: orange;
+    }
     h2 {
       text-align: center;
     }
@@ -17,18 +38,20 @@
       background-color: blue;
     }
     #flex {
-      display: inline-flex;
+      display: inline-grid;
     }
     button {
-      background-color: grey;
       text-align: left;
-      size: 20px;
+      height: 50px;
+      width: 50px;
+      text-align: center;
     }
     .calc {
       border-style: double;
       padding: 10px;
       width: 250px;
       height: 425px;
+      background-color: black;
     }
   </style>
   <body>
@@ -41,21 +64,21 @@
       <textarea name="" id="" cols="30" rows="10">
 I am still working on it this is what it is so far.</textarea
       >
-      <button id="flex"><i class="fas fa-plus"></i></button>
-      <button id="flex"><i class="fas fa-minus"></i></button>
-      <button id="flex"><i class="fas fa-asterisk"></i></button>
-      <button id="flex"><i class="fas fa-divide"></i></button>
-      <button id="flex"><i class="fas fa-equals"></i></button>
-      <button id="flex">1</button>
-      <button id="flex">2</button>
-      <button id="flex">3</button>
-      <button id="flex">4</button>
-      <button id="flex">5</button>
-      <button id="flex">6</button>
-      <button id="flex">7</button>
-      <button id="flex">8</button>
-      <button id="flex">9</button>
-      <button id="flex">0</button>
+      <button id="flex" class="saddness">1</button>
+      <button id="flex" class="saddness">2</button>
+      <button id="flex" class="saddness">3</button>
+      <button class="i" id="flex"><i class="fas fa-plus"></i></button>
+      <button id="flex" class="saddness">5</button>
+      <button id="flex" class="saddness">6</button>
+      <button id="flex" class="saddness">4</button>
+      <button id="flex" class="i"><i class="fas fa-minus"></i></button>
+      <button id="flex" class="saddness">7</button>
+      <button id="flex" class="saddness">8</button>
+      <button id="flex" class="saddness">9</button>
+      <button id="flex" class="i"><i class="fas fa-asterisk"></i></button>
+      <div id="flex" class="div"><button class="zero">0</button></div>
+      <button id="flex" class="i"><i class="fas fa-divide"></i></button>
+      <button class="i" id="flex"><i class="fas fa-equals"></i></button>
     </div>
   </body>
 </html>
